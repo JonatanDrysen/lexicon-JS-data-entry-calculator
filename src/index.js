@@ -19,7 +19,7 @@ function calculateAge() {
     const currentYear = date.getFullYear()
     const age = currentYear - userBirthYear
     userAge = age
-    console.log(userAge)
+    console.log(`You are ${userAge} years old!`)
 }
 
 getUserName
