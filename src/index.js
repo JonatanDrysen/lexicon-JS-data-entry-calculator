@@ -15,7 +15,7 @@ function getUserBirthYear() {
     if(!userBirthYear) { userBirthYear = date.getFullYear() }
 }
 
-function calculateAge() {
+function calculateUserAge() {
     const currentYear = date.getFullYear()
     const age = currentYear - userBirthYear
     userAge = age
@@ -24,4 +24,4 @@ function calculateAge() {
 
 getUserName
 getUserBirthYear
-calculateAge
+calculateUserAge
