@@ -22,6 +22,8 @@ function calculateUserAge() {
     console.log(`You are ${userAge} years old!`)
 }
 
-getUserName
-getUserBirthYear
-calculateUserAge
+function getTwoNumbers() {
+    const nr1 = Number(window.prompt("Enter the first number please."))
+    const nr2 = Number(window.prompt("Enter the second number please."))
+    return {nr1, nr2}
+}
